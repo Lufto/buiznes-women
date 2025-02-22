@@ -19,7 +19,7 @@ export const Admin = () => {
 
 	if (
 		login == 'admin' &&
-		Md5.hashStr(password) == '21232f297a57a5a743894a0e4a801fc3'
+		Md5.hashStr(password) == '5c7dcba3bdd1237a862c092321a629e3'
 	) {
 		return (
 			<div className={style.container}>
