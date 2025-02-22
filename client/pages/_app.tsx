@@ -1,4 +1,4 @@
 import { App } from '@/App'
-import '../src/app/globals.css'
+import './globals.css'
 
 export default App
