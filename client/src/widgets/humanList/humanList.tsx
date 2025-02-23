@@ -141,7 +141,7 @@ export const Human = ({
 				&#10006;
 			</div>
 			<Image
-				src={`http://localhost:8080/image/${people.img}`}
+				src={`http://85.192.41.228:8080/image/${people.img}`}
 				alt=""
 				className={style.img}
 				width={300}

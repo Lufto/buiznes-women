@@ -41,7 +41,7 @@ export const Human = () => {
 					/>
 				</div>
 				<Image
-					src={`http://localhost:8080/image/${human.img}`}
+					src={`http://85.192.41.228:8080/image/${human.img}`}
 					alt=""
 					width={200}
 					height={200}
