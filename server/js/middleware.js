@@ -5,7 +5,9 @@ import express from 'express'
 const middleware = express.Router()
 
 middleware.use(cors())
+
 middleware.options('*', cors())
+
 middleware.use(bodyParser.urlencoded({ extended: false }))
 middleware.use(bodyParser.json())
 
