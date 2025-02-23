@@ -1,4 +1,4 @@
-export const url = 'http://localhost:8080/api'
+export const url = 'http://85.192.41.228:8080/api'
 
 //Human
 export const fetchedHumans = async () => {
